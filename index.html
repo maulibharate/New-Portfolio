@@ -24,8 +24,7 @@
       rel="stylesheet"
     />
     <title>
-      RyanCV &#8211; Resume CV &amp; vCard WordPress Theme &#8211; Just another
-      WordPress site
+      Portfolio &#8211; Mauli Bharate
     </title>
     <meta name="robots" content="max-image-preview:large" />
     <link rel="dns-prefetch" href="http://maps.googleapis.com/" />
@@ -129,6 +128,9 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
   </head>
   <body
     class="
@@ -172,25 +174,33 @@
       >
         <header class="header">
           <div class="profile">
-            <div class="title">Ryan Adlard</div>
+            <div class="title">Mauli Bharate</div>
             <div class="subtitle subtitle-typed">
               <div class="typing-title">
-                <p>Web Designer</p>
-                <p>Blogger</p>
-                <p>Freelancer</p>
-                <p>Photographer</p>
+                <p>Software Engineer</p>
+                <p>Web Developer</p>
+                <p>Frontend/Backend Developer</p>
+                <p>Full Stack Developer</p>
               </div>
             </div>
           </div>
-          <a href="#" class="menu-btn"><span></span></a>
+          <!-- <a href="#" class="menu-btn"><span></span></a> -->
           <div class="cart-btn">
             <div class="cart-icon">
-              <span class="ion ion-android-cart"></span>
-              <span class="cart-count">0</span>
+              <a href="#" class="menu-btn"><span></span></a>
+              <!-- <span class="ion ion-android-cart"></span> -->
+              <!-- <div class="fa fa-shopping-cart"></div>
+              <span class="cart-count">0</span> -->
             </div>
             <div class="cart-widget">
               <p class="woocommerce-mini-cart__empty-message">
-                No products in the cart.
+                <a
+                  href='https://maulibharate.github.io/Portfolio/'
+                  target='_blank'
+                >
+                  My first Portfolio
+                  <span style="color: red;" class="fa fa-heart"></span>
+                </a>
               </p>
             </div>
           </div>
@@ -208,9 +218,11 @@
                     current_page_item
                   "
                 >
-                  <a href="#home-e" class="one-page-menu-item"
-                    ><span class="icon ion-ios-person"></span>About</a
-                  >
+                  <a href="#home-e" class="one-page-menu-item">
+                    <!-- <span class="icon ion-ios-person"></span> -->
+                    <div class="fa fa-user subtitle"></div>
+                    <div>About</div>
+                    </a>
                 </li>
                 <li
                   data-id="menu-item-108"
@@ -220,9 +232,11 @@
                     menu-item-object-page
                   "
                 >
-                  <a href="#resume-e" class="one-page-menu-item"
-                    ><span class="icon ion-android-list"></span>Resume</a
-                  >
+                  <a href="#resume-e" class="one-page-menu-item">
+                    <!-- <span class="icon ion-android-list"></span> -->
+                    <div class="fa fa-th-list subtitle"></div>
+                    <div>Resume</div>
+                    </a>
                 </li>
                 <li
                   data-id="menu-item-109"
@@ -232,11 +246,13 @@
                     menu-item-object-page
                   "
                 >
-                  <a href="#works-e" class="one-page-menu-item"
-                    ><span class="icon ion-paintbrush"></span>Works</a
-                  >
+                  <a href="#works-e" class="one-page-menu-item">
+                    <!-- <span class="icon ion-paintbrush"></span> -->
+                    <div class="fa fa-paint-brush subtitle"></div>
+                    <div>Works</div>
+                    </a>
                 </li>
-                <li
+                <!-- <li
                   data-id="menu-item-110"
                   class="
                     menu-item
@@ -244,10 +260,12 @@
                     menu-item-object-page
                   "
                 >
-                  <a href="#blog-e" class="one-page-menu-item"
-                    ><span class="icon ion-chatbox-working"></span>Blog</a
-                  >
-                </li>
+                  <a href="#blog-e" class="one-page-menu-item">
+                    <span class="icon ion-chatbox-working"></span>
+                    <i class="fa fa-comment subtitle"></i>
+                    <div>Blog</div>
+                    </a>
+                </li> -->
                 <li
                   data-id="menu-item-111"
                   class="
@@ -256,11 +274,13 @@
                     menu-item-object-page
                   "
                 >
-                  <a href="#contacts-e" class="one-page-menu-item"
-                    ><span class="icon ion-at"></span>Contact</a
-                  >
+                  <a href="#contacts-e" class="one-page-menu-item">
+                    <!-- <span class="icon ion-at"></span> -->
+                    <div class="fa fa-at subtitle"></div>
+                    <div>Contact</div>
+                  </a>
                 </li>
-                <li
+                <!-- <li
                   data-id="menu-item-205"
                   class="
                     menu-item
@@ -268,10 +288,11 @@
                     menu-item-object-page
                   "
                 >
-                  <a href="shop/index.html" class="no-scroll"
-                    ><span class="icon ion-android-cart"></span>Shop</a
-                  >
-                </li>
+                  <a href="shop/index.html" class="no-scroll">
+                    <div class="fa fa-shopping-cart"></div>
+                    <div>Shop</div>
+                    </a>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -283,39 +304,40 @@
                 class="lazyload slide"
                 data-bg="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/man5_big.jpg"
                 style="
-                  background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);
+                  background-image: url(assets/image/2020/04/man5_big.jpg);
                 "
               ></div>
-              <div class="title">Ryan Adlard</div>
+              <div class="title">Mauli Bharate</div>
               <div class="subtitle subtitle-typed">
                 <div class="typing-title">
-                  <p>Web Designer</p>
-                  <p>Blogger</p>
-                  <p>Freelancer</p>
-                  <p>Photographer</p>
+                  <p>Software Engineer</p>
+                  <p>Web Developer</p>
+                  <p>Frontend/Backend Developer</p>
+                  <p>Full Stack Developer</p>
                 </div>
               </div>
               <div class="social">
-                <a target="_blank" href="https://dribbble.com/">
-                  <span class="fab fab fa-dribbble"></span>
+                <a target="_blank" href="https://www.linkedin.com/in/mauli-bharate-6a8b32198/">
+                  <!-- <span class="fab fab fa-dribbble"></span> -->
+                  <span class="fab fab fa-linkedin-square"></span>
                 </a>
-                <a target="_blank" href="https://twitter.com/">
+                <!-- <a target="_blank" href="https://twitter.com/">
                   <span class="fab fab fa-twitter"></span>
-                </a>
-                <a target="_blank" href="https://github.com/">
+                </a> -->
+                <a target="_blank" href="https://github.com/maulibharate">
                   <span class="fab fab fa-github"></span>
                 </a>
-                <a target="_blank" href="https://www.spotify.com/">
+                <!-- <a target="_blank" href="https://www.spotify.com/">
                   <span class="fab fab fa-spotify"></span>
-                </a>
-                <a target="_blank" href="https://stackoverflow.com/">
+                </a> -->
+                <!-- <a target="_blank" href="https://stackoverflow.com/">
                   <span class="fab fab fa-stack-overflow"></span>
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="lnks">
               <a
-                href="assets/image/2021/07/Jacky-Smith-Resume-Project-Manager.pdf"
+                href="assets/image/2021/07/Mauli-Bharate-Full-Stack-Developer.pdf"
                 class="lnk"
                 target="_blank"
               >
@@ -328,7 +350,7 @@
           </div>
         </div>
         <div class="s_overlay"></div>
-        <div class="content-sidebar">
+        <!-- <div class="content-sidebar">
           <div class="sidebar-wrap">
             <aside id="secondary" class="widget-area">
               <section id="search-2" class="widget widget_search">
@@ -388,7 +410,7 @@
                 <h2 class="widget-title">Recent Comments</h2>
                 <ul id="recentcomments">
                   <li class="recentcomments">
-                    <span class="comment-author-link">Ryan Adlard</span> on
+                    <span class="comment-author-link">Mauli Bharate</span> on
                     <a
                       href="2020/04/28/creativity-is-more-than/index.html#comment-2"
                       >Creativity Is More Than</a
@@ -416,7 +438,7 @@
                     >
                   </li>
                   <li class="recentcomments">
-                    <span class="comment-author-link">Ryan Adlard</span> on
+                    <span class="comment-author-link">Mauli Bharate</span> on
                     <a
                       href="2020/04/28/by-spite-about-do-of-allow/index.html#comment-8"
                       >By spite about do of allow</a
@@ -453,7 +475,7 @@
             </aside>
           </div>
           <span class="close"></span>
-        </div>
+        </div> -->
         <div class="card-inner animated active" id="card-home-e">
           <div class="card-wrap">
             <div
@@ -515,7 +537,7 @@
                                   <div class="elementor-widget-container">
                                     <div class="content about">
                                       <div class="title">
-                                        <span>About Me</span>
+                                        <span><span class="first-word">A</span>bout Me</span>
                                       </div>
                                       <div class="row">
                                         <div
@@ -527,13 +549,12 @@
                                           <div class="text-box">
                                             <div>
                                               <strong
-                                                >Hello! I’m Ryan Adlard.</strong
+                                                >Hello! I’m Mauli Bharate.</strong
                                               ><br />
-                                              Web designer from USA, California.
-                                              I have rich experience in web site
-                                              design and building, also I am
-                                              good at wordpress. I love to talk
-                                              with you about our unique.
+                                              I'm a full-stack developer 
+                                              specialised in frontend and 
+                                              backend development for complex 
+                                              scalable web apps.
                                             </div>
                                           </div>
                                         </div>
@@ -549,25 +570,25 @@
                                                 <strong>
                                                   <span> Age: </span>
                                                 </strong>
-                                                <span> 24 </span>
+                                                <span> 25 </span>
                                               </li>
                                               <li>
                                                 <strong>
                                                   <span> Residence: </span>
                                                 </strong>
-                                                <span> USA </span>
+                                                <span> India </span>
                                               </li>
-                                              <li>
+                                              <!-- <li>
                                                 <strong>
                                                   <span> Freelance: </span>
                                                 </strong>
                                                 <span> Available </span>
-                                              </li>
+                                              </li> -->
                                               <li>
                                                 <strong>
                                                   <span> Address: </span>
                                                 </strong>
-                                                <span> California, USA </span>
+                                                <span> Pune, India </span>
                                               </li>
                                             </ul>
                                           </div>
@@ -630,7 +651,8 @@
                                   <div class="elementor-widget-container">
                                     <div class="content services">
                                       <div class="title">
-                                        <span>My Services</span>
+                                        <!-- <span>My Services</span> -->
+                                        <span><span class="first-word">S</span>kills Overview</span>
                                       </div>
                                       <div
                                         class="row service-items border-line-v"
@@ -646,15 +668,38 @@
                                               <span class="fa fa-code"></span>
                                             </div>
                                             <div class="name">
-                                              <span> Web Development </span>
+                                              <!-- <span> Web Development </span> -->
+                                              <span> Frontend </span>
                                             </div>
                                             <div class="desc">
                                               <div>
-                                                <p>
+                                                <!-- <p>
                                                   Modern and mobile-ready
                                                   website that will help you
                                                   reach all of your marketing.
-                                                </p>
+                                                </p> -->
+                                                <ul style="text-align: start; list-style-type: none;">
+                                                  <li>
+                                                    <span class="fa fa-check subtitle"></span>
+                                                    React/Redux
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    Javascript
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    Bootstrap4/5
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    HTML/CSS/SASS/LESS
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    Wordpress
+                                                  </li>
+                                                </ul>
                                               </div>
                                             </div>
                                           </div>
@@ -667,19 +712,41 @@
                                         >
                                           <div class="service-item">
                                             <div class="icon">
-                                              <span class="fa fa-music"></span>
+                                              <!-- <span class="fa fa-music"></span> -->
+                                              <span class="fa fa-database"></span>
                                             </div>
                                             <div class="name">
-                                              <span> Music Writing </span>
+                                              <span> Backend </span>
                                             </div>
                                             <div class="desc">
                                               <div>
-                                                <p>
+                                                <!-- <p>
                                                   Music copying, writing,
                                                   creating, transcription,
                                                   arranging and composition
                                                   services.
-                                                </p>
+                                                </p> -->
+                                                <ul style="text-align: start; list-style-type: none;">
+                                                  <li>
+                                                    <span class="fa fa-check subtitle"></span>
+                                                    Node.js
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    Express js
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    MongoDB
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    Mongoose
+                                                  </li>
+                                                  <!-- <li>
+                                                    <span class="fa fa-check"></span>
+                                                  </li> -->
+                                                </ul>
                                               </div>
                                             </div>
                                           </div>
@@ -692,20 +759,53 @@
                                         >
                                           <div class="service-item">
                                             <div class="icon">
-                                              <span
+                                              <!-- <span
                                                 class="fa fa-buysellads"
+                                              ></span> -->
+                                              <span
+                                                class="fa fa-cogs"
                                               ></span>
                                             </div>
                                             <div class="name">
-                                              <span> Advetising </span>
+                                              <span> Others </span>
                                             </div>
                                             <div class="desc">
                                               <div>
-                                                <p>
+                                                <ul style="text-align: start; list-style-type: none;">
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    Git/GitHub
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check subtitle"></span>
+                                                    DevOps (Jira/Azure)
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    SVN
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    Heroku
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    WebRTC
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    WebSocket
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    AWS
+                                                  </li>
+                                                </ul>
+                                                <!-- <p>
                                                   Advertising services include
                                                   television, radio, print,
                                                   mail, and web apps.
-                                                </p>
+                                                </p> -->
                                               </div>
                                             </div>
                                           </div>
@@ -723,15 +823,28 @@
                                               ></span>
                                             </div>
                                             <div class="name">
-                                              <span> Game Development </span>
+                                              <span> BuildTools </span>
                                             </div>
                                             <div class="desc">
                                               <div>
-                                                <p>
+                                                <ul style="text-align: start; list-style-type: none;">
+                                                  <li>
+                                                    <span class="fa fa-check subtitle"></span>
+                                                    VS Code
+                                                  </li>
+                                                  <li>
+                                                    <span class="fa fa-check"></span>
+                                                    Brackets
+                                                  </li>
+                                                  <!-- <li>
+                                                    <span class="fa fa-check"></span>
+                                                  </li> -->
+                                                </ul>
+                                                <!-- <p>
                                                   Developing memorable and
                                                   unique mobile android, ios and
                                                   video games.
-                                                </p>
+                                                </p> -->
                                               </div>
                                             </div>
                                           </div>
@@ -747,7 +860,7 @@
                         </div>
                       </div>
                     </section>
-                    <section
+                    <!-- <section
                       class="
                         elementor-section
                         elementor-top-section
@@ -1099,17 +1212,17 @@
                                                 <noscript
                                                   ><img
                                                     src="wp-content/uploads/2020/04/profile-92x92.png"
-                                                    alt="Ryan Adlard" /></noscript
+                                                    alt="Mauli Bharate" /></noscript
                                                 ><img
                                                   class="lazyload"
                                                   src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
                                                   data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/profile-92x92.png"
-                                                  alt="Ryan Adlard"
+                                                  alt="Mauli Bharate"
                                                 />
                                               </div>
                                               <div class="info">
                                                 <div class="name">
-                                                  Ryan Adlard
+                                                  Mauli Bharate
                                                 </div>
                                                 <div class="company">
                                                   Web Designer
@@ -1367,7 +1480,7 @@
                           </div>
                         </div>
                       </div>
-                    </section>
+                    </section> -->
                   </div>
                 </div>
               </div>
@@ -1435,7 +1548,7 @@
                                   <div class="elementor-widget-container">
                                     <div class="content custom-text">
                                       <div class="title">
-                                        <span>Resume</span>
+                                        <span><span class="first-word">R</span>esume</span>
                                       </div>
                                     </div>
                                   </div>
@@ -1517,26 +1630,24 @@
                                                 alt="" /></noscript
                                             ><img
                                               class="lazyload"
-                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
+                                              src="assets\image\2020\04\client_3.png"
                                               data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/client_3.png"
                                               alt=""
                                             />
                                           </div>
                                           <div class="date">
-                                            <span> 2013 - Present </span>
+                                            <span> Apr 2021 - Present </span>
                                           </div>
                                           <div class="name">
-                                            <span> Art Director </span>
+                                            <span> Software Engineer </span>
                                           </div>
                                           <div class="company">
-                                            <span> Facebook Inc. </span>
+                                            <span> SpringCT. </span>
                                           </div>
                                           <div class="single-post-text">
                                             <div>
                                               <p>
-                                                Collaborate with creative and
-                                                development teams on the
-                                                execution of ideas.
+                                                Design web application according to client briefs and modify designs to meet changes in client specifications.
                                               </p>
                                             </div>
                                           </div>
@@ -1549,31 +1660,29 @@
                                                 alt="" /></noscript
                                             ><img
                                               class="lazyload"
-                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
+                                              src="assets\image\2020\04\client_4.png"
                                               data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/client_4.png"
                                               alt=""
                                             />
                                           </div>
                                           <div class="date">
-                                            <span> 2011 - 2012 </span>
+                                            <span> Mar 2020 - Mar 2021 </span>
                                           </div>
                                           <div class="name">
-                                            <span> Front-End Developer </span>
+                                            <span> Front-End Developer (Intern) </span>
                                           </div>
                                           <div class="company">
-                                            <span> Google Inc. </span>
+                                            <span> SpringCT. </span>
                                           </div>
                                           <div class="single-post-text">
                                             <div>
                                               <p>
-                                                Monitored technical aspects of
-                                                the front-end delivery for
-                                                projects.
+                                                Generated WordPress themes and Created responsive web pages with the help of HTML, CSS and Bootstrap 3/4.
                                               </p>
                                             </div>
                                           </div>
                                         </div>
-                                        <div class="resume-item border-line-h">
+                                        <!-- <div class="resume-item border-line-h">
                                           <div class="image">
                                             <noscript
                                               ><img
@@ -1604,7 +1713,7 @@
                                               </p>
                                             </div>
                                           </div>
-                                        </div>
+                                        </div> -->
                                       </div>
                                     </div>
                                   </div>
@@ -1662,26 +1771,63 @@
                                                 alt="" /></noscript
                                             ><img
                                               class="lazyload"
-                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
+                                              src="assets\image\2020\04\client_1.png"
                                               data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/client_1.png"
                                               alt=""
                                             />
                                           </div>
                                           <div class="date">
-                                            <span> 2006 - 2008 </span>
+                                            <span> 2014 - 2019 </span>
                                           </div>
                                           <div class="name">
-                                            <span> Art University </span>
+                                            <!-- <span> Art University </span> -->
+                                            <span> Computer Science </span>
                                           </div>
                                           <div class="company">
-                                            <span> New York </span>
+                                            <!-- <span> New York </span> -->
+                                            <span> Lonavala </span>
                                           </div>
                                           <div class="single-post-text">
                                             <div>
                                               <p>
                                                 Bachelor's Degree in Computer
+                                                Science Sinhgad Institute Of Technology,
+                                                Lonavala
+                                              </p>
+                                              <!-- <p>
+                                                Bachelor's Degree in Computer
                                                 Science ABC Technical Institute,
                                                 Jefferson, Missouri
+                                              </p> -->
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="resume-item border-line-h">
+                                          <div class="image">
+                                            <noscript
+                                              ><img
+                                                src="wp-content/uploads/2020/04/client_1.png"
+                                                alt="" /></noscript
+                                            ><img
+                                              class="lazyload"
+                                              src="assets\image\2020\04\client_1.png"
+                                              data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/client_1.png"
+                                              alt=""
+                                            />
+                                          </div>
+                                          <div class="date">
+                                            <span> 2013 - 2014 </span>
+                                          </div>
+                                          <div class="name">
+                                            <span> 12th (HSC) </span>
+                                          </div>
+                                          <div class="company">
+                                            <span> Jamkhed </span>
+                                          </div>
+                                          <div class="single-post-text">
+                                            <div>
+                                              <p>
+                                                Graduation in L. N. Hoshing Jr. College, Jamkhed
                                               </p>
                                             </div>
                                           </div>
@@ -1694,57 +1840,24 @@
                                                 alt="" /></noscript
                                             ><img
                                               class="lazyload"
-                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
+                                              src="assets\image\2020\04\client_1.png"
                                               data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/client_1.png"
                                               alt=""
                                             />
                                           </div>
                                           <div class="date">
-                                            <span> 2005 - 2006 </span>
+                                            <span> 2011 - 2012 </span>
                                           </div>
                                           <div class="name">
-                                            <span> Programming Course </span>
+                                            <span> 10th (SSC) </span>
                                           </div>
                                           <div class="company">
-                                            <span> Paris </span>
+                                            <span> Jamkhed </span>
                                           </div>
                                           <div class="single-post-text">
                                             <div>
                                               <p>
-                                                Coursework - Git, WordPress,
-                                                Javascript, iOS, Android.
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="resume-item border-line-h">
-                                          <div class="image">
-                                            <noscript
-                                              ><img
-                                                src="wp-content/uploads/2020/04/client_1.png"
-                                                alt="" /></noscript
-                                            ><img
-                                              class="lazyload"
-                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
-                                              data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/client_1.png"
-                                              alt=""
-                                            />
-                                          </div>
-                                          <div class="date">
-                                            <span> 2004 - 2005 </span>
-                                          </div>
-                                          <div class="name">
-                                            <span> Web Design Course </span>
-                                          </div>
-                                          <div class="company">
-                                            <span> London </span>
-                                          </div>
-                                          <div class="single-post-text">
-                                            <div>
-                                              <p>
-                                                Converted Photoshop layouts to
-                                                web pages using HTML, CSS, and
-                                                JavaScript
+                                                Shri Nagesh Vidyalaya, Jamkhed
                                               </p>
                                             </div>
                                           </div>
@@ -1862,7 +1975,7 @@
                                   <div class="elementor-widget-container">
                                     <div class="content custom-text">
                                       <div class="title">
-                                        <span>Skills</span>
+                                        <span><span class="first-word">S</span>kills</span>
                                       </div>
                                     </div>
                                   </div>
@@ -1938,33 +2051,33 @@
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: 90%"
-                                              ></div>
-                                            </div>
-                                          </li>
-                                          <li class="border-line-h">
-                                            <div class="name">
-                                              <span> Write Music </span>
-                                            </div>
-                                            <div class="progress">
-                                              <div
-                                                class="percentage"
-                                                style="width: 65%"
-                                              ></div>
-                                            </div>
-                                          </li>
-                                          <li class="border-line-h">
-                                            <div class="name">
-                                              <span> Photoshop </span>
-                                            </div>
-                                            <div class="progress">
-                                              <div
-                                                class="percentage"
                                                 style="width: 75%"
                                               ></div>
                                             </div>
                                           </li>
                                           <li class="border-line-h">
+                                            <div class="name">
+                                              <span> Frontend </span>
+                                            </div>
+                                            <div class="progress">
+                                              <div
+                                                class="percentage"
+                                                style="width: 85%"
+                                              ></div>
+                                            </div>
+                                          </li>
+                                          <li class="border-line-h">
+                                            <div class="name">
+                                              <span> Backend </span>
+                                            </div>
+                                            <div class="progress">
+                                              <div
+                                                class="percentage"
+                                                style="width: 60%"
+                                              ></div>
+                                            </div>
+                                          </li>
+                                          <!-- <li class="border-line-h">
                                             <div class="name">
                                               <span> Graphic Design </span>
                                             </div>
@@ -1974,7 +2087,7 @@
                                                 style="width: 85%"
                                               ></div>
                                             </div>
-                                          </li>
+                                          </li> -->
                                         </ul>
                                       </div>
                                     </div>
@@ -2033,33 +2146,33 @@
                                             <div class="progress">
                                               <div
                                                 class="percentage"
+                                                style="width: 40%"
+                                              ></div>
+                                            </div>
+                                          </li>
+                                          <li class="border-line-h">
+                                            <div class="name">
+                                              <span> Hindi </span>
+                                            </div>
+                                            <div class="progress">
+                                              <div
+                                                class="percentage"
+                                                style="width: 70%"
+                                              ></div>
+                                            </div>
+                                          </li>
+                                          <li class="border-line-h">
+                                            <div class="name">
+                                              <span> Marathi </span>
+                                            </div>
+                                            <div class="progress">
+                                              <div
+                                                class="percentage"
                                                 style="width: 90%"
                                               ></div>
                                             </div>
                                           </li>
-                                          <li class="border-line-h">
-                                            <div class="name">
-                                              <span> German </span>
-                                            </div>
-                                            <div class="progress">
-                                              <div
-                                                class="percentage"
-                                                style="width: 60%"
-                                              ></div>
-                                            </div>
-                                          </li>
-                                          <li class="border-line-h">
-                                            <div class="name">
-                                              <span> Italian </span>
-                                            </div>
-                                            <div class="progress">
-                                              <div
-                                                class="percentage"
-                                                style="width: 30%"
-                                              ></div>
-                                            </div>
-                                          </li>
-                                          <li class="border-line-h">
+                                          <!-- <li class="border-line-h">
                                             <div class="name">
                                               <span> French </span>
                                             </div>
@@ -2069,7 +2182,7 @@
                                                 style="width: 70%"
                                               ></div>
                                             </div>
-                                          </li>
+                                          </li> -->
                                         </ul>
                                       </div>
                                     </div>
@@ -2141,7 +2254,7 @@
                                         <ul>
                                           <li class="border-line-h">
                                             <div class="name">
-                                              <span> WordPress </span>
+                                              <span> HTML / CSS / Javascript </span>
                                             </div>
                                             <div class="progress p90">
                                               <div
@@ -2153,33 +2266,33 @@
                                           </li>
                                           <li class="border-line-h">
                                             <div class="name">
-                                              <span> PHP / MYSQL </span>
-                                            </div>
-                                            <div class="progress p75">
-                                              <div
-                                                class="percentage"
-                                                style="width: 75%"
-                                              ></div>
-                                              <span>75%</span>
-                                            </div>
-                                          </li>
-                                          <li class="border-line-h">
-                                            <div class="name">
                                               <span>
-                                                Angular / JavaScript
+                                                React / Redux
                                               </span>
                                             </div>
-                                            <div class="progress p85">
+                                            <div class="progress p80">
                                               <div
                                                 class="percentage"
-                                                style="width: 85%"
+                                                style="width: 80%"
                                               ></div>
-                                              <span>85%</span>
+                                              <span>80%</span>
                                             </div>
                                           </li>
                                           <li class="border-line-h">
                                             <div class="name">
-                                              <span> HTML / CSS </span>
+                                              <span> Node.js / MongoDB </span>
+                                            </div>
+                                            <div class="progress p65">
+                                              <div
+                                                class="percentage"
+                                                style="width: 65%"
+                                              ></div>
+                                              <span>65%</span>
+                                            </div>
+                                          </li>
+                                          <li class="border-line-h">
+                                            <div class="name">
+                                              <span> Bootstrap4/5 / SASS </span>
                                             </div>
                                             <div class="progress p95">
                                               <div
@@ -2241,79 +2354,80 @@
                                         </div>
                                         <ul>
                                           <li class="border-line-h">
-                                            <div class="name">
-                                              <span> Website hosting </span>
+                                            <div class="flexBaseline">
+                                              <span class="fa fa-check"></span>
+                                              <span> Well-experienced at building frontend applications. </span>
                                             </div>
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: %"
                                               ></div>
                                             </div>
                                           </li>
                                           <li class="border-line-h">
-                                            <div class="name">
+                                            <div class="flexBaseline">
+                                              <span class="fa fa-check"></span>
                                               <span>
-                                                iOS and android apps
+                                                Good bunch of commits on Github as I did lots of freelancing.
                                               </span>
                                             </div>
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: %"
                                               ></div>
                                             </div>
                                           </li>
                                           <li class="border-line-h">
-                                            <div class="name">
-                                              <span> Create logo design </span>
+                                            <div class="flexBaseline">
+                                              <span class="fa fa-check"></span>
+                                              <span> Good at dealing with customers professionally. </span>
                                             </div>
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: %"
                                               ></div>
                                             </div>
                                           </li>
                                           <li class="border-line-h">
-                                            <div class="name">
-                                              <span> Design for print </span>
+                                            <div class="flexBaseline">
+                                              <span class="fa fa-check"></span>
+                                              <span> Knowledge building Freshworks’ custom applications. </span>
                                             </div>
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: %"
                                               ></div>
                                             </div>
                                           </li>
                                           <li class="border-line-h">
-                                            <div class="name">
+                                            <div class="flexBaseline">
+                                              <span class="fa fa-check"></span>
                                               <span>
-                                                Modern and mobile-ready
+                                                Knowledge of building products with low-code tools.
                                               </span>
                                             </div>
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: %"
                                               ></div>
                                             </div>
                                           </li>
                                           <li class="border-line-h">
-                                            <div class="name">
+                                            <div class="flexBaseline">
+                                              <span class="fa fa-check"></span>
                                               <span>
-                                                Advertising services include
+                                                A new technology is never a limitation.
                                               </span>
                                             </div>
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: %"
                                               ></div>
                                             </div>
                                           </li>
-                                          <li class="border-line-h">
-                                            <div class="name">
+                                          <!-- <li class="border-line-h">
+                                            <div class="">
+                                              <span class="fa fa-check"></span>
                                               <span>
                                                 Graphics and animations
                                               </span>
@@ -2321,12 +2435,12 @@
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: %"
                                               ></div>
                                             </div>
                                           </li>
                                           <li class="border-line-h">
-                                            <div class="name">
+                                            <div class="">
+                                              <span class="fa fa-check"></span>
                                               <span>
                                                 Search engine marketing
                                               </span>
@@ -2334,10 +2448,9 @@
                                             <div class="progress">
                                               <div
                                                 class="percentage"
-                                                style="width: %"
                                               ></div>
                                             </div>
-                                          </li>
+                                          </li> -->
                                         </ul>
                                       </div>
                                     </div>
@@ -2348,7 +2461,7 @@
                           </div>
                         </div>
                       </div>
-                    </section>
+                    <!-- </section>
                     <section
                       class="
                         elementor-section
@@ -2607,7 +2720,7 @@
                           </div>
                         </div>
                       </div>
-                    </section>
+                    </section> -->
                   </div>
                 </div>
               </div>
@@ -2675,7 +2788,7 @@
                                   <div class="elementor-widget-container">
                                     <div class="content works">
                                       <div class="title">
-                                        <span>Works</span>
+                                        <span><span class="first-word">W</span>orks</span>
                                       </div>
                                       <div
                                         class="filter-menu filter-button-group"
@@ -2689,14 +2802,14 @@
                                             />All</label
                                           >
                                         </div>
-                                        <div class="f_btn">
+                                        <!-- <div class="f_btn">
                                           <label
                                             ><input
                                               type="radio"
                                               name="fl_radio"
                                               data-cat-id="15"
                                               value=".f-video"
-                                            />Video</label
+                                            />Job</label
                                           >
                                         </div>
                                         <div class="f_btn">
@@ -2706,9 +2819,9 @@
                                               name="fl_radio"
                                               data-cat-id="12"
                                               value=".f-music"
-                                            />Music</label
+                                            />Intern</label
                                           >
-                                        </div>
+                                        </div> -->
                                         <div class="f_btn">
                                           <label
                                             ><input
@@ -2716,7 +2829,7 @@
                                               name="fl_radio"
                                               data-cat-id="11"
                                               value=".f-link"
-                                            />Link</label
+                                            />ReactJS</label
                                           >
                                         </div>
                                         <div class="f_btn">
@@ -2726,7 +2839,7 @@
                                               name="fl_radio"
                                               data-cat-id="10"
                                               value=".f-image"
-                                            />Image</label
+                                            />NodeJS/ExpressJS</label
                                           >
                                         </div>
                                         <div class="f_btn">
@@ -2736,7 +2849,7 @@
                                               name="fl_radio"
                                               data-cat-id="9"
                                               value=".f-gallery"
-                                            />Gallery</label
+                                            />MongoDB</label
                                           >
                                         </div>
                                         <div class="f_btn">
@@ -2746,7 +2859,7 @@
                                               name="fl_radio"
                                               data-cat-id="8"
                                               value=".f-content"
-                                            />Content</label
+                                            />Redux</label
                                           >
                                         </div>
                                       </div>
@@ -2757,12 +2870,15 @@
                                             border-line-h
                                             grid-item
                                             f-link
+                                            f-image
+                                            f-gallery
+                                            f-content
                                           "
                                         >
                                           <div class="box-item">
                                             <div class="image">
                                               <a
-                                                href="http://ryan.beshley.com/"
+                                                href="https://travel-shop-in-mern.herokuapp.com/"
                                                 class="has-popup-link"
                                                 target="_blank"
                                               >
@@ -2786,7 +2902,7 @@
                                                 ><img
                                                   width="600"
                                                   height="399"
-                                                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20399%22%3E%3C/svg%3E"
+                                                  src="assets/work/travel-shop-mern.png"
                                                   data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work7-600x399.jpg"
                                                   class="
                                                     lazyload
@@ -2807,11 +2923,21 @@
                                             </div>
                                             <div class="desc">
                                               <a
-                                                href="portfolio-archive/social-website/index.html"
+                                                href="https://travel-shop-in-mern.herokuapp.com/"
                                                 class="name"
-                                                >Social Website</a
+                                                target="_blank"
+                                                >Travel Shopping Sites
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a
                                               >
-                                              <div class="category">Link</div>
+                                              <a
+                                                href="https://github.com/maulibharate/Travel-Shop-in-MERN"
+                                                target="_blank"
+                                              >
+                                                <div class="category">MERN
+                                                  <span class="fab fab fa-github"></span>
+                                                </div>
+                                              </a>
                                             </div>
                                           </div>
                                         </div>
@@ -2821,14 +2947,18 @@
                                             border-line-h
                                             grid-item
                                             f-gallery
+                                            f-link
+                                            f-content
+                                            disabledLink
                                           "
                                         >
                                           <div class="box-item">
                                             <div class="image">
-                                              <a
-                                                href="#gallery-80"
+                                              <!-- <a
+                                                href="#"
                                                 class="has-popup-gallery"
-                                              >
+                                                target="_blank"
+                                              > -->
                                                 <noscript
                                                   ><img
                                                     width="600"
@@ -2867,7 +2997,7 @@
                                                     class="ion fas fa-images"
                                                   ></span>
                                                 </span>
-                                              </a>
+                                              <!-- </a> -->
                                               <div
                                                 id="gallery-80"
                                                 class="mfp-hide"
@@ -2885,17 +3015,24 @@
                                             </div>
                                             <div class="desc">
                                               <a
-                                                href="portfolio-archive/architecture/index.html"
                                                 class="name"
-                                                >Architecture</a
+                                                target="_blank"
+                                                >MERN Boilerplate
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a
                                               >
-                                              <div class="category">
-                                                Gallery
-                                              </div>
+                                              <!-- <a
+                                                href="#"
+                                                target="_blank"
+                                              > -->
+                                                <div class="category">MERN
+                                                  <span class="fab fab fa-github"></span>
+                                                </div>
+                                              <!-- </a> -->
                                             </div>
                                           </div>
                                         </div>
-                                        <div
+                                        <!-- <div
                                           class="
                                             col col-d-6 col-t-6 col-m-12
                                             border-line-h
@@ -2906,8 +3043,9 @@
                                           <div class="box-item">
                                             <div class="image">
                                               <a
-                                                href="#gallery-77"
+                                                href="https://crud-app-by-mauli.herokuapp.com/"
                                                 class="has-popup-gallery"
+                                                target="_blank"
                                               >
                                                 <noscript
                                                   ><img
@@ -2930,7 +3068,7 @@
                                                 ><img
                                                   width="600"
                                                   height="801"
-                                                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20801%22%3E%3C/svg%3E"
+                                                  src="assets/work/crude-app.png"
                                                   data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work1-600x801.jpg"
                                                   class="
                                                     lazyload
@@ -2965,29 +3103,38 @@
                                             </div>
                                             <div class="desc">
                                               <a
-                                                href="portfolio-archive/motorcycle-helmet/index.html"
+                                                href="https://crud-app-by-mauli.herokuapp.com/"
                                                 class="name"
-                                                >Motorcycle Helmet</a
+                                                target="_blank"
+                                                >CRUD App</a
                                               >
                                               <div class="category">
-                                                Gallery
+                                                NodeJS/ExpressJS/MongoDB
                                               </div>
                                             </div>
                                           </div>
-                                        </div>
+                                        </div> -->
+
+
+
+
+                                        <!--  -->
                                         <div
                                           class="
                                             col col-d-6 col-t-6 col-m-12
                                             border-line-h
                                             grid-item
                                             f-video
+                                            f-image
+                                            f-gallery
                                           "
                                         >
                                           <div class="box-item">
                                             <div class="image">
                                               <a
-                                                href="https://vimeo.com/97102654"
+                                                href="https://crud-app-by-mauli.herokuapp.com/"
                                                 class="has-popup-video"
+                                                target="_blank"
                                               >
                                                 <noscript
                                                   ><img
@@ -3009,7 +3156,7 @@
                                                 ><img
                                                   width="600"
                                                   height="400"
-                                                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20400%22%3E%3C/svg%3E"
+                                                  src="assets/work/crude-app.png"
                                                   data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work2-600x400.jpg"
                                                   class="
                                                     lazyload
@@ -3030,15 +3177,106 @@
                                             </div>
                                             <div class="desc">
                                               <a
-                                                href="portfolio-archive/minimalism-shapes/index.html"
+                                                href="https://crud-app-by-mauli.herokuapp.com/"
                                                 class="name"
-                                                >Minimalism Shapes</a
+                                                target="_blank"
+                                                >CRUD App
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a
                                               >
-                                              <div class="category">Video</div>
+                                              <a
+                                                href="https://github.com/maulibharate/crudapp"
+                                                target="_blank"
+                                              >
+                                                <div class="category">NodeJS/ExpressJS/MongoDB
+                                                  <span class="fab fab fa-github"></span>
+                                                </div>
+                                              </a>
                                             </div>
                                           </div>
                                         </div>
+                                        <!--  -->
+
+
+
+
                                         <div
+                                          class="
+                                            col col-d-6 col-t-6 col-m-12
+                                            border-line-h
+                                            grid-item
+                                            f-video
+                                            f-link
+                                            f-content
+                                          "
+                                        >
+                                          <div class="box-item">
+                                            <div class="image">
+                                              <a
+                                                href="https://redux-todo-by-mauil.herokuapp.com/"
+                                                class="has-popup-video"
+                                                target="_blank"
+                                              >
+                                                <noscript
+                                                  ><img
+                                                    width="600"
+                                                    height="400"
+                                                    src="wp-content/uploads/2020/04/work2-600x400.jpg"
+                                                    class="
+                                                      attachment-ryancv_600xauto
+                                                      size-ryancv_600xauto
+                                                      wp-post-image
+                                                    "
+                                                    alt=""
+                                                    srcset="
+                                                      https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work2-600x400.jpg 600w,
+                                                      https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work2-300x200.jpg 300w,
+                                                      https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work2.jpg         700w
+                                                    "
+                                                    sizes="(max-width: 600px) 100vw, 600px" /></noscript
+                                                ><img
+                                                  width="600"
+                                                  height="400"
+                                                  src="assets/work/to-do-app.png"
+                                                  data-src="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work2-600x400.jpg"
+                                                  class="
+                                                    lazyload
+                                                    attachment-ryancv_600xauto
+                                                    size-ryancv_600xauto
+                                                    wp-post-image
+                                                  "
+                                                  alt=""
+                                                  data-srcset="https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work2-600x400.jpg 600w, https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work2-300x200.jpg 300w, https://bslthemes.site/ryancv/wp-content/uploads/2020/04/work2.jpg 700w"
+                                                  data-sizes="(max-width: 600px) 100vw, 600px"
+                                                />
+                                                <span class="info">
+                                                  <span
+                                                    class="ion fas fa-video"
+                                                  ></span>
+                                                </span>
+                                              </a>
+                                            </div>
+                                            <div class="desc">
+                                              <a
+                                                href="https://redux-todo-by-mauil.herokuapp.com/"
+                                                class="name"
+                                                target="_blank"
+                                                >ToDo App
+                                                <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a
+                                              >
+                                              <a
+                                                href="https://github.com/maulibharate/redux-todo"
+                                                target="_blank"
+                                              >
+                                                <div class="category">React/Redux
+                                                  <span class="fab fab fa-github"></span>
+                                                </div>
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!-- <div
                                           class="
                                             col col-d-6 col-t-6 col-m-12
                                             border-line-h
@@ -3318,7 +3556,7 @@
                                               </div>
                                             </div>
                                           </div>
-                                        </div>
+                                        </div> -->
                                         <div class="clear"></div>
                                       </div>
                                     </div>
@@ -3336,7 +3574,7 @@
             </div>
           </div>
         </div>
-        <div class="card-inner" id="card-blog-e">
+        <!-- <div class="card-inner" id="card-blog-e">
           <div class="card-wrap">
             <div
               id="post-50"
@@ -3772,7 +4010,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="card-inner" id="card-contacts-e">
           <div class="card-wrap">
             <div
@@ -3834,7 +4072,7 @@
                                   <div class="elementor-widget-container">
                                     <div class="content custom-text">
                                       <div class="title">
-                                        <span>Get in Touch</span>
+                                        <span><span class="first-word">G</span>et in Touch</span>
                                       </div>
                                     </div>
                                   </div>
@@ -3896,7 +4134,7 @@
                                         scrolling="no"
                                         marginheight="0"
                                         marginwidth="0"
-                                        src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10859.534345493905!2d73.88750193570914!3d18.444020687116414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3617ea5289f9eba!2sRadhaKunja!5e0!3m2!1sen!2sin!4v1637641241550!5m2!1sen!2sin"
                                         title="%3$s"
                                         aria-label="%3$s"
                                       ></iframe>
@@ -3971,26 +4209,26 @@
                                               <strong>
                                                 <span> Address: </span>
                                               </strong>
-                                              <span> California, USA </span>
+                                              <span> Pune, India </span>
                                             </li>
                                             <li>
                                               <strong>
                                                 <span> Email: </span>
                                               </strong>
-                                              <span> adlard@example.com </span>
+                                              <span> maulibharate96@gmail.com </span>
                                             </li>
                                             <li>
                                               <strong>
                                                 <span> Phone: </span>
                                               </strong>
-                                              <span> +123 654 78900 </span>
+                                              <span> +91 8421232234 </span>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                               <strong>
                                                 <span> Freelance: </span>
                                               </strong>
                                               <span> Available </span>
-                                            </li>
+                                            </li> -->
                                           </ul>
                                         </div>
                                       </div>
@@ -4107,7 +4345,7 @@
                                   <div class="elementor-widget-container">
                                     <div class="content contacts">
                                       <div class="title">
-                                        <span>Contact Form</span>
+                                        <span><span class="first-word">C</span>ontact Form</span>
                                       </div>
                                       <div class="row">
                                         <div

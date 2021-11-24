@@ -16095,7 +16095,9 @@ dd {
 .content .title.no-title:before {
   display: none;
 }
-.content .title .first-word {
+.content .title .first-word,
+.desc ul li span,
+.skills-list.list ul li span {
   color: #78cc6d;
 }
 .content .title:first-letter,
@@ -24335,7 +24337,10 @@ button::-moz-focus-inner {
 .mfp-iframe-holder .mfp-content {
   line-height: 0;
   width: 100%;
-  max-width: 900px;
+  /* max-width: 900px; */
+  max-width: 79%;
+  height: 100%;
+  max-height: 90%;
 }
 .mfp-iframe-holder .mfp-close {
   top: -40px;
@@ -43144,4 +43149,25 @@ body {
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+
+.flexBaseline {
+  display: flex;
+  align-items: baseline;
+}
+
+.flexBaseline .fa-check {
+  margin-right: 0.5rem;
+}
+
+.fa-external-link,
+.category .fa-github {
+    font-size: .7rem;
+    color: blue;
+    position: relative;
+    top: -0.4rem;
+}
+
+.disabledLink:hover {
+  cursor: no-drop;
 }
